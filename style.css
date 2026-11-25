@@ -141,5 +141,29 @@ html{scroll-padding-top:72px}
   .video-thumb span{font-size:8px;padding:5px}
 }
 
-/* Profile video */
-.photo-frame .profile-video{width:100%;height:100%;display:block;object-fit:cover;border-radius:11px;position:relative;z-index:2;background:#09152b}
+
+/* Compact "What I Do" cards */
+#services.section{padding-top:38px;padding-bottom:40px}
+#services .wrap>h2{margin:4px 0 14px}
+#services .cards{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#services .cards article{min-height:0;padding:14px 15px;border-radius:9px}
+#services .cards article>b{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;margin:0 7px 0 0;border-radius:7px;background:#edf3fb;color:#315b91;font-size:16px;vertical-align:middle}
+#services .cards article h3{display:inline;font-size:15px;line-height:1.25;margin:0;vertical-align:middle}
+#services .cards article p{font-size:12px;line-height:1.5;margin:8px 0 6px}
+#services .cards article small{display:block;font-size:10px;line-height:1.4;color:#718096}
+@media(max-width:900px){#services .cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){
+#services.section{padding-top:30px;padding-bottom:30px}
+#services .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+#services .cards article{padding:11px}
+#services .cards article h3{font-size:13px}
+#services .cards article p{font-size:11px;line-height:1.4}
+#services .cards article small{font-size:9px}
+}
+
+/* Portrait 9:16 profile video: show the entire video without cropping */
+.hero-visual{height:370px}
+.photo-frame{width:208px;height:370px;padding:7px}
+.photo-frame .profile-video{object-fit:contain;background:#09152b}
+@media(max-width:900px){.hero-visual{height:350px}.photo-frame{width:197px;height:350px}}
+@media(max-width:560px){.hero-visual{height:300px}.photo-frame{width:169px;height:300px}}
