@@ -189,3 +189,85 @@ html{scroll-padding-top:72px}
 .portfolio-device-previews a{display:flex;align-items:center;gap:10px;padding:7px;border:1px solid #e4eaf2;border-radius:8px;color:#416fa8;font-size:10px;font-weight:800}
 .portfolio-device-previews img{width:48px;height:68px;object-fit:cover;object-position:top center;border-radius:4px}
 @media(max-width:620px){.portfolio-preview-media{height:190px}}
+
+
+/* Selected Work: tighter, aligned cards with no stretched empty space */
+#work .gallery{
+  align-items:start;
+  grid-auto-flow:row;
+  gap:16px;
+}
+#work .gallery>.project-card{
+  align-self:start;
+  height:fit-content;
+  min-width:0;
+}
+#work .project-media{
+  height:155px;
+}
+#work .project-info{
+  padding:13px 15px 15px;
+}
+#work .project-info h3{
+  font-size:15px;
+  line-height:1.3;
+  margin:5px 0 6px;
+}
+#work .project-info p{
+  font-size:11px;
+  line-height:1.5;
+  margin:6px 0;
+}
+#work .project-info small{
+  font-size:10px;
+  line-height:1.4;
+}
+#work .project-type{
+  font-size:8px;
+  letter-spacing:.08em;
+}
+#work .bayntedos-combined .project-info{padding:13px 14px 14px}
+#work .bayntedos-gallery{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:7px;
+  margin:9px 0;
+}
+#work .bayntedos-gallery a:first-child{grid-column:auto}
+#work .bayntedos-gallery img{
+  height:105px;
+  padding:3px;
+  object-fit:contain;
+  background:#f5f6f8;
+}
+#work .bayntedos-gallery span{
+  display:block;
+  font-size:9px;
+  line-height:1.25;
+  padding:5px 3px;
+}
+#work .video-gallery-card{
+  grid-column:1/-1;
+  align-self:start;
+}
+#work .video-gallery-heading{padding:13px 15px 7px}
+#work .video-showcase{padding:0 14px 12px}
+#work .video-featured{
+  height:clamp(210px,30vw,360px);
+  max-height:360px;
+}
+#work .video-picker{gap:8px}
+#work .video-thumb img{height:72px}
+#work .video-thumb span{font-size:9px;padding:6px}
+#work .portfolio-preview-media{height:155px}
+#work .portfolio-device-previews{margin:7px 0}
+#work .portfolio-device-previews img{width:36px;height:50px}
+#work .gallery-note{margin-top:14px;font-size:11px}
+@media(max-width:700px){
+  #work .gallery{grid-template-columns:1fr;gap:12px}
+  #work .project-media{height:175px}
+  #work .bayntedos-gallery{grid-template-columns:repeat(3,minmax(0,1fr))}
+  #work .bayntedos-gallery img{height:92px}
+  #work .video-gallery-card{grid-column:auto}
+  #work .video-featured{height:300px}
+  #work .video-picker{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
