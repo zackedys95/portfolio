@@ -1,0 +1,92 @@
+CARLO BAYNO — SELECTED WORKS IMAGE CHECKLIST
+
+The updated gallery has six image slots. Put your real images in the assets folder using these exact filenames:
+
+1. assets/project-coolbird.jpg
+   Prepare 2–4 of your strongest CoolBird Publishing House designs:
+   - one social media post or promotional flyer
+   - one book/publishing promotion
+   - one additional layout or campaign design
+   Best image: a clean collage/grid of 2–4 designs, or one image per project if you later expand the gallery.
+   Suggested export: JPG or WebP, 1400 × 1000 px, under 500 KB.
+
+2. assets/project-bayntedos-honey.jpg
+   Prepare:
+   - final BAYNTEDOS Honey 2 × 3 inch label
+   - bottle mockup showing the label on the 350 ml bottle
+   Suggested export: JPG or WebP, 1400 × 1000 px, under 500 KB.
+
+3. assets/project-excel-inventory.jpg
+   Prepare:
+   - screenshot of the inventory sheet
+   - optional second screenshot showing summary/dashboard or formulas
+   Hide business-sensitive details. Use fictional sample item names and figures if needed.
+   Suggested export: PNG or JPG, 1400 × 1000 px.
+
+4. assets/project-portfolio-website.jpg
+   Prepare:
+   - screenshot of the live homepage on desktop
+   - screenshot of the mobile layout
+   You can use your live site at https://zackedys95.github.io/porfolio.zackedys/
+   Suggested export: JPG or WebP, 1400 × 1000 px.
+
+5. assets/project-capcut-video.jpg
+   Prepare:
+   - a strong cover frame from one finished video
+   - screenshot of the CapCut editing timeline
+   Optional: add a link to the finished video in the card later.
+   Suggested export: JPG or PNG, 1400 × 1000 px.
+
+6. assets/project-admin-documents.jpg
+   Prepare:
+   - one polished Word report or formatted document screenshot
+   - one Excel or PowerPoint report screenshot, if available
+   Remove names, contact details, patient data, claim identifiers, signatures and other confidential information. Never upload real patient or government confidential records.
+   Suggested export: JPG or PNG, 1400 × 1000 px.
+
+IMAGE QUALITY AND PRESENTATION
+- Use landscape images, ideally 4:3 or 16:10.
+- Keep text legible; crop out browser tabs and unnecessary desktop clutter.
+- Do not upload confidential client, patient, employee or business data.
+- Use actual work you created or have permission to show.
+- If a project is a concept/personal sample, label it that way.
+- Keep the exact filenames above so the website loads them automatically.
+
+PROJECT DESCRIPTIONS
+The six gallery descriptions are already added to index.html. Check that each description accurately reflects the work you actually completed before publishing.
+
+
+ASSETS ALREADY ADDED FROM YOUR UPLOADS
+- BAYNTEDOS Honey label: project-bayntedos-honey.jpg (optimized full-label preview); original artwork is also retained as project-bayntedos-honey-original.jpg.
+- Three BAYNTEDOS Food & Refreshment Hub poster designs: bayntedos-promo-1.jpg, bayntedos-promo-2.jpg, bayntedos-promo-3.jpg; combined preview: project-bayntedos-promo-designs.jpg.
+- Video sample: quantum-records-promo.mp4, with project-capcut-video-poster.jpg as its preview image.
+
+STILL NEEDED FOR THE OTHER GALLERY CARDS
+- CoolBird Publishing House: 2–4 real design samples.
+- Excel inventory: screenshot with sensitive data hidden or replaced by fictional data.
+- Carlo Bayno portfolio: desktop and mobile screenshots of the live site.
+- Administrative documents: redacted or recreated sample pages only.
+
+
+COOLBIRD PUBLISHING HOUSE SAMPLES ADDED
+- coolbird-title-campaign.jpg — “Struggling to Name Your Book?” title guidance poster.
+- coolbird-best-buddies.png — Best Buddies book promotional design.
+- coolbird-bible-stories.png — My First Book of Bible Stories promotional design.
+- coolbird-kids-promotion.png — children’s book publishing promotional design.
+- project-coolbird.jpg — combined gallery preview of all four samples.
+The CoolBird project card links to each original image for full-size viewing.
+
+
+ADDITIONAL VIDEO EDITING SAMPLES ADDED
+- coolbird-publishing-promo.mp4 — uploaded file: promote.mp4
+- video-moores-book.mp4 — uploaded file: moore's book.mp4
+- video-stories-promo.mp4 — uploaded file: stories.mp4
+- video-kids-book.mp4 — uploaded file: kids book.mp4
+Each video has a matching poster image in the assets folder. The website displays all four as playable vertical video samples.
+
+
+NEW BAYNTEDOS MENU AND LABEL SAMPLES ADDED
+- bayntedos-menu.jpg — optimized menu preview; full original: bayntedos-menu-original.jpg.
+- bayntedos-tortilla-wrap-sticker.jpg — optimized sticker preview; full original: bayntedos-tortilla-wrap-sticker-original.jpg.
+- project-bayntedos-menu-label.jpg — combined menu-forward presentation board.
+The website now has a featured BAYNTEDOS Cafe & Grill Menu Design card and a separate Tortilla Wrap Product Sticker card. Both credit Adobe Photoshop as the tool used. The existing BAYNTEDOS Honey label card also now lists Adobe Photoshop.
