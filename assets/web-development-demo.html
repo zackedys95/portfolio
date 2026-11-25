@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Northstar Cafe — Demo Website</title>
+<style>
+:root{--navy:#142b4d;--gold:#f2bd42;--cream:#fffaf0}*{box-sizing:border-box}body{margin:0;font:16px/1.6 Arial,sans-serif;color:#25344a;background:var(--cream)}
+header{background:var(--navy);color:white;padding:18px max(6vw,22px);display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.logo{font-weight:800;letter-spacing:.08em}nav a{color:white;text-decoration:none;margin-left:18px;font-size:14px}
+.hero{padding:78px max(6vw,22px);background:linear-gradient(120deg,#142b4d,#315d83);color:white}
+.hero h1{font-size:clamp(2.2rem,6vw,4.5rem);line-height:1.05;max-width:700px;margin:0 0 18px}.hero p{max-width:560px;color:#e4edf6}
+.btn{display:inline-block;margin-top:14px;padding:12px 20px;background:var(--gold);color:#17243b;text-decoration:none;font-weight:bold;border-radius:7px}
+section{padding:48px max(6vw,22px)}h2{color:var(--navy)}.items{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;padding:22px;border-radius:12px;box-shadow:0 8px 24px #142b4d12}.price{color:#94650a;font-weight:bold}
+footer{padding:26px;text-align:center;background:#10233e;color:white;font-size:13px}
+@media(max-width:650px){.items{grid-template-columns:1fr}header{align-items:flex-start}nav a{margin:0 12px 0 0}.hero{padding-top:55px;padding-bottom:55px}}
+</style></head><body>
+<header><div class="logo">NORTHSTAR CAFE</div><nav><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></nav></header>
+<main><section class="hero"><p>FRESHLY MADE · EVERY DAY</p><h1>A little comfort in every cup.</h1><p>A clean, responsive sample website for a fictional neighborhood café. Explore the menu and get in touch.</p><a class="btn" href="#menu">Explore the menu</a></section>
+<section id="menu"><h2>Customer favorites</h2><div class="items">
+<div class="card"><h3>Iced Caramel Coffee</h3><p>Chilled espresso with creamy caramel.</p><div class="price">₱120</div></div>
+<div class="card"><h3>Classic Burger</h3><p>Grilled patty, fresh greens and house sauce.</p><div class="price">₱150</div></div>
+<div class="card"><h3>Chicken Wrap</h3><p>Seasoned chicken with crisp vegetables.</p><div class="price">₱135</div></div>
+</div></section><section id="about"><h2>Made for your everyday break</h2><p>This fictional café demo shows a simple page structure, responsive layout, navigation, menu cards and contact section.</p></section><section id="contact"><h2>Visit us</h2><p>Sample address: Davao City, Philippines · hello@example.com</p></section></main><footer>DEMO PROJECT · FICTIONAL BUSINESS · Built with HTML and CSS</footer></body></html>
